@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4b08f59f2757d4fb3f8891c1b7abaf, type: 3}
+  m_Name: Mine
+  m_EditorClassIdentifier: Assembly-CSharp::AbilityData
+  abilityType: 0
+  abilityName: Mine
+  description: 
+  icon: {fileID: 0}
+  unlockCost: 100
+  baseDamage: 150
+  baseRadius: 0.5
+  baseDuration: 0
+  baseSlowAmount: 0
+  baseMaxPlacements: 1
+  roundCooldown: 1
+  upgradeTiers:
+  - upgradeName: Tier 1
+    description: 
+    cost: 150
+    damageBonus: 50
+    radiusBonus: 0
+    durationBonus: 0
+    slowBonus: 0
+    maxPlacementsBonus: 0
+    cooldownReduction: 0
+  - upgradeName: Tier 2
+    description: 
+    cost: 200
+    damageBonus: 0
+    radiusBonus: 1
+    durationBonus: 0
+    slowBonus: 0
+    maxPlacementsBonus: 0
+    cooldownReduction: 0
+  - upgradeName: Tier 3
+    description: 
+    cost: 250
+    damageBonus: 0
+    radiusBonus: 0
+    durationBonus: 0
+    slowBonus: 0
+    maxPlacementsBonus: 1
+    cooldownReduction: 0

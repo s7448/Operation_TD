@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2881849fd049dd43a9da277041b1b39, type: 3}
+  m_Name: Radar_MOD
+  m_EditorClassIdentifier: Assembly-CSharp::TowerUpgradeTree
+  paths:
+  - pathName: Range Boost
+    stat: 3
+    steps:
+    - upgradeName: Range Boost
+      description: 
+      cost: 550
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+    - upgradeName: Range Boost
+      description: 
+      cost: 600
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+    - upgradeName: Range Boost
+      description: 
+      cost: 650
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+  - pathName: Reload Speed
+    stat: 4
+    steps:
+    - upgradeName: Reload Speed
+      description: 
+      cost: 550
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+    - upgradeName: Reload Speed
+      description: 
+      cost: 600
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+    - upgradeName: Reload Speed
+      description: 
+      cost: 650
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+  - pathName: Target Analysis
+    stat: 0
+    steps:
+    - upgradeName: Target Analysis
+      description: 
+      cost: 550
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+    - upgradeName: Target Analysis
+      description: 
+      cost: 600
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+    - upgradeName: Target Analysis
+      description: 
+      cost: 650
+      icon: {fileID: 0}
+      bonusAmount: 0.1

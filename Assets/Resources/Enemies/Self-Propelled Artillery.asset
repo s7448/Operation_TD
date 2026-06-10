@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d670f9c4bcf558c49850dbe8b9ace0ef, type: 3}
+  m_Name: Self-Propelled Artillery
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  icon: {fileID: 21300000, guid: 4744919922061c844a4b48735d629f51, type: 3}
+  description: Slow but heavily armored artillery unit.
+  firstWaveAppear: 0
+  enemyName: SPA
+  type: 1
+  movement: 0
+  hardness: 0.6
+  armorValue: 25
+  maxHealth: 600
+  movementSpeed: 0.8
+  goldReward: 70
+  damageToPlayer: 4
+  spawnHeightOffset: 0.21

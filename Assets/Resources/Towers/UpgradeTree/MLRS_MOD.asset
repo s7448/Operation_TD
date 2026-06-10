@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2881849fd049dd43a9da277041b1b39, type: 3}
+  m_Name: MLRS_MOD
+  m_EditorClassIdentifier: Assembly-CSharp::TowerUpgradeTree
+  paths:
+  - pathName: Soft Attack
+    stat: 0
+    steps:
+    - upgradeName: Soft Attack
+      description: 
+      cost: 150
+      icon: {fileID: 0}
+      bonusAmount: 3
+    - upgradeName: Soft Attack
+      description: 
+      cost: 150
+      icon: {fileID: 0}
+      bonusAmount: 3
+    - upgradeName: Soft Attack
+      description: 
+      cost: 200
+      icon: {fileID: 0}
+      bonusAmount: 4
+    - upgradeName: Soft Attack
+      description: 
+      cost: 275
+      icon: {fileID: 0}
+      bonusAmount: 5
+    - upgradeName: Soft Attack
+      description: 
+      cost: 450
+      icon: {fileID: 0}
+      bonusAmount: 10
+  - pathName: Range
+    stat: 3
+    steps:
+    - upgradeName: Range
+      description: 
+      cost: 150
+      icon: {fileID: 0}
+      bonusAmount: 0.25
+    - upgradeName: Range
+      description: 
+      cost: 150
+      icon: {fileID: 0}
+      bonusAmount: 0.25
+    - upgradeName: Range
+      description: 
+      cost: 200
+      icon: {fileID: 0}
+      bonusAmount: 0.5
+    - upgradeName: Range
+      description: 
+      cost: 275
+      icon: {fileID: 0}
+      bonusAmount: 1.25
+    - upgradeName: Range
+      description: 
+      cost: 450
+      icon: {fileID: 0}
+      bonusAmount: 2
+  - pathName: FireRate
+    stat: 4
+    steps:
+    - upgradeName: FireRate
+      description: 
+      cost: 150
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+    - upgradeName: FireRate
+      description: 
+      cost: 150
+      icon: {fileID: 0}
+      bonusAmount: 0.1
+    - upgradeName: FireRate
+      description: 
+      cost: 200
+      icon: {fileID: 0}
+      bonusAmount: 0.15
+    - upgradeName: FireRate
+      description: 
+      cost: 275
+      icon: {fileID: 0}
+      bonusAmount: 0.2
+    - upgradeName: FireRate
+      description: 
+      cost: 450
+      icon: {fileID: 0}
+      bonusAmount: 0.35

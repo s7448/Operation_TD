@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4b08f59f2757d4fb3f8891c1b7abaf, type: 3}
+  m_Name: Mortar
+  m_EditorClassIdentifier: Assembly-CSharp::AbilityData
+  abilityType: 2
+  abilityName: Mortar
+  description: 
+  icon: {fileID: 0}
+  unlockCost: 250
+  baseDamage: 200
+  baseRadius: 1
+  baseDuration: 0
+  baseSlowAmount: 0
+  baseMaxPlacements: 0
+  roundCooldown: 5
+  upgradeTiers:
+  - upgradeName: Tier 1
+    description: 
+    cost: 300
+    damageBonus: 100
+    radiusBonus: 0
+    durationBonus: 0
+    slowBonus: 0
+    maxPlacementsBonus: 0
+    cooldownReduction: 0
+  - upgradeName: Tier 2
+    description: 
+    cost: 350
+    damageBonus: 0
+    radiusBonus: 2
+    durationBonus: 0
+    slowBonus: 0
+    maxPlacementsBonus: 0
+    cooldownReduction: 0
+  - upgradeName: Tier 3
+    description: 
+    cost: 400
+    damageBonus: 0
+    radiusBonus: 0
+    durationBonus: 0
+    slowBonus: 0
+    maxPlacementsBonus: 0
+    cooldownReduction: 2

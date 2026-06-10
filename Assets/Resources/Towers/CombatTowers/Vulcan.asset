@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cbcc24edff3c5499eaaa075322609d, type: 3}
+  m_Name: Vulcan
+  m_EditorClassIdentifier: Assembly-CSharp::CombatTowerConfig
+  description: Melts unarmored infantry but pings harmlessly off tanks.
+  towerName: Vulcan
+  category: 0
+  icon: {fileID: 21300000, guid: 23922bcfb7e8c704ebdced144ae4bbd3, type: 3}
+  cost: 200
+  range: 5
+  fireRate: 2.5
+  shootSound: {fileID: 0}
+  upgradeTree: {fileID: 11400000, guid: 23837b0e8e185594b87369fe62b7ad2e, type: 2}
+  softAttack: 15
+  hardAttack: 5
+  piercing: 10
+  explosionRadius: 0
+  useFalloffDamage: 0
+  slowAmount: 0
+  slowDuration: 0
+  projectileSpeed: 45
+  isArcing: 0
+  projectilePrefab: {fileID: 1565503783371183963, guid: e7910daa37a88294388aefd97eefde43, type: 3}
+  muzzleEffect: {fileID: 100002, guid: 877d9fbb6609c534a9828320cad3c58d, type: 3}
+  impactEffect: {fileID: 100002, guid: d1890b730034ab64fb8d8eb6aa9c085b, type: 3}
+  defaultTargeting: 0

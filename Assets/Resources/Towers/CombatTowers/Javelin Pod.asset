@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0cbcc24edff3c5499eaaa075322609d, type: 3}
+  m_Name: Javelin Pod
+  m_EditorClassIdentifier: Assembly-CSharp::CombatTowerConfig
+  description: Fires slow, guided missiles that deal devastating explosive damage
+    to single armored targets.
+  towerName: Javelin Pod
+  category: 0
+  icon: {fileID: 21300000, guid: d40e6fa0664281d428ddcc045b4b10f2, type: 3}
+  cost: 500
+  range: 9
+  fireRate: 0.4
+  shootSound: {fileID: 0}
+  upgradeTree: {fileID: 11400000, guid: b1d5c1763f76cf34b9976a1b1bf6a66b, type: 2}
+  softAttack: 15
+  hardAttack: 80
+  piercing: 60
+  explosionRadius: 1.5
+  useFalloffDamage: 0
+  slowAmount: 0
+  slowDuration: 0
+  projectileSpeed: 75
+  isArcing: 1
+  projectilePrefab: {fileID: 6619928587694222329, guid: b0a742a0035b19349873f505a12c24d9, type: 3}
+  muzzleEffect: {fileID: 100000, guid: f9da36138dcab4643b0747e5c37c0a6f, type: 3}
+  impactEffect: {fileID: 100004, guid: b4da72c5b3bc32b4a980889f94e0362b, type: 3}
+  defaultTargeting: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d670f9c4bcf558c49850dbe8b9ace0ef, type: 3}
+  m_Name: Jeep
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
+  icon: {fileID: 21300000, guid: ff926ce6b809dae439590c49f7bc15f9, type: 3}
+  description: Fast recon vehicle. Low armor but hard to catch.
+  firstWaveAppear: 0
+  enemyName: Jeep
+  type: 1
+  movement: 0
+  hardness: 0.2
+  armorValue: 5
+  maxHealth: 150
+  movementSpeed: 4
+  goldReward: 25
+  damageToPlayer: 2
